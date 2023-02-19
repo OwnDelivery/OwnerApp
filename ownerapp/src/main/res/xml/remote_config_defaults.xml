@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>distance_factor</key>
+        <value>1.5</value>
+    </entry>
+    <entry>
+        <key>delivery_charge_per_km</key>
+        <value>15</value>
+    </entry>
+    <entry>
+        <key>customer_support_no</key>
+        <value>7824012886</value>
+    </entry>
+    <entry>
+        <key>minimum_app_version</key>
+        <value>1</value>
+    </entry>
+</defaultsMap>

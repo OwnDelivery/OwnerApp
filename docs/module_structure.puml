@@ -1,0 +1,32 @@
+@startuml
+
+package "Apps" {
+[OwnerApp]
+[DriverApp]
+[CustomerApp]
+}
+
+[AppLib]
+
+[Domain]
+
+[API]
+
+[Contract]
+
+
+[OwnerApp] --> [AppLib]
+[DriverApp] --> [AppLib]
+[CustomerApp] --> [AppLib]
+
+[OwnerApp] --> [Domain]
+[DriverApp] --> [Domain]
+[CustomerApp] --> [Domain]
+
+[AppLib] --> [Domain]
+
+[Domain] --> [API]
+
+note right of Contract : Common module\nto share data\ncontracts
+
+@enduml

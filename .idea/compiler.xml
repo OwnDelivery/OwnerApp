@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="OwnDelivery.customerapp" target="11" />
+      <module name="OwnDelivery.features" target="11" />
+      <module name="OwnDelivery.features.login" target="11" />
+      <module name="OwnDelivery.features.theme" target="11" />
+      <module name="OwnDelivery.mayasapp" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

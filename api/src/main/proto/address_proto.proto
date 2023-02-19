@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "app.delivery.api.protos";
+option java_multiple_files = true;
+
+message AddressProto {
+  double lat = 1;
+  double lon = 2;
+  string doorNo = 4;
+  string street = 5;
+  string landMark = 6;
+  string locality = 7;
+}
